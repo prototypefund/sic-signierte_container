@@ -1,12 +1,12 @@
 [[docs]]
   name = "Prologue"
-  weight = 10
+  weight = 60
   identifier = "prologue"
   url = "/docs/prologue/"
 
 [[docs]]
   name = "Help"
-  weight = 60
+  weight = 10
   identifier = "help"
   url = "/docs/help/"
 
@@ -82,7 +82,6 @@
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-mastodon\"><path d=\"M 211.807 139.087 c -3.18125 16.3662 -28.4925 34.2775 -57.5625 37.7487 c -15.1587 1.80875 -30.0837 3.47125 -45.9987 2.74125 c -26.0275 -1.1925 -46.565 -6.2125 -46.565 -6.2125 c 0 2.53375 0.15625 4.94625 0.46875 7.2025 c 3.38375 25.6863 25.47 27.225 46.3913 27.9425 c 21.1162 0.7225 39.9188 -5.20625 39.9188 -5.20625 l 0.8675 19.09 s -14.77 7.93125 -41.0812 9.39 c -14.5087 0.7975 -32.5238 -0.365 -53.5062 -5.91875 C 9.23234 213.82 1.40609 165.311 0.20859 116.091 c -0.365 -14.6138 -0.14 -28.3937 -0.14 -39.9188 c 0 -50.33 32.9762 -65.0825 32.9762 -65.0825 C 49.6723 3.45375 78.2036 0.2425 107.865 0 h 0.72875 c 29.6612 0.2425 58.2113 3.45375 74.8375 11.09 c 0 0 32.975 14.7525 32.975 65.0825 c 0 0 0.41375 37.1338 -4.59875 62.915\"></path></svg>"
   url = "https://twitter.com/getdoks"
   weight = 30
-
 # [[footer]]
 #   name = "Privacy"
 #   url = "/privacy-policy/"

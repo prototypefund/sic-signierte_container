@@ -6,8 +6,9 @@ variables:
 
 default:
   before_script:
-    # Not using node container (neither alpine nor bullseye-slim), since for some unknown
-    # reason npm build fails with them (works in bullseye-slim image if npm is reinstalled)
+    # Not using node container (neither alpine nor bullseye-slim), since for
+    # some unknown reason npm build fails with them. Works when `
+    # bullseye-lts`image is used and npm reinstalled in pipeline)
     - apt update && apt upgrade && apt install -y npm
     - git submodule update --init --recursive
     - npm install shx

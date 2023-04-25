@@ -4,16 +4,16 @@
 title = "SiC"
 titleSeparator = "-"
 titleAddition = "Signierte Container"
-description = "Automatisierung von Container-Signaturen - für mehr Sicherheit in der Software-Lieferkette."
+description = "SiC automatisiert Container-Signaturen und sorgt für mehr Sicherheit in der Software-Lieferkette."
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
-ogLocale = "de-DE"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+# images = ["doks.png"]
+# ogLocale = "de-DE"
+# domainTLD = "doks.netlify.app"
+# titleHome = "Doks Theme"
 
 ## Twitter Cards
 #twitterSite = "@getdoks"
@@ -22,8 +22,8 @@ titleHome = "Doks Theme"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
+schemaName = "SiC"
+schemaAuthor = "Lucas Humfeldt"
 #schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 #schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 #schemaAuthorGitHub = "https://github.com/h-enk"
@@ -34,9 +34,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = ""
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -64,8 +64,9 @@ imageAddClass = "img-fluid lazyload blur-up"
 defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
-# Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a><br><a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" />"
+footer = "<section> Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a><br><a rel=\"license\"></a> </section><section> <a href=\"https://prototypefund.de\"> <img src=\"/BMBF-Funding.jpg\" alt=\"Gefördert im Rahmen der 13. Runde des Prototype Fund\" class=\"navbar-brand\" style=\"width:35%;height:35%;\"> </a> <a href=\"https://bmbf.de\"> <img src=\"/PTF-Funding.png\" alt=\"Gefördert vom Bundesministerium für Bildung und Forschung (BMBF)\" class=\"funding-logo\" style=\"width:12%;height:12%;\"> </a> </section> "
+
+# Creative commons snippet: <section><a class=\"text-muted\" href=\"http://creativecommons.org/licenses/by/4.0/\"> <img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /> </a> </section>
 
 # Feed
 copyRight = "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\"/></a><br /></a> This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>."
@@ -78,9 +79,9 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
-repoHost = "GitHub"
+repoHost = "Gitlab"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://gitlab.com/sic-signierte_container/sic-signierte_container.gitlab.io.git"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false

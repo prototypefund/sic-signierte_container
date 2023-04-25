@@ -3,3 +3,15 @@
 
 - id: on-this-page
   translation: "Auf dieser Seite"
+
+- id: search-text
+  translation: "Docs durchsuchen ..."
+
+- id: 404-title
+  translation: "Diese Seite konnte nicht gefunden werden :("
+
+- id: 404-text
+  translation: "Die Seite konnte nicht gefunden werden oder ist umgezogen."
+
+- id: browse
+  translation: "Browse"
